@@ -1,36 +1,53 @@
-# Jekyll-Uno with Projects as Timeline
-A Jekyll Theme, based on the Uno-Theme with a list of projects as Timeline.
+# WhatATheme
+**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
 
-## How does is look
-[Demo](http://thomas.zuehlke.family/)
-![Screenshot](screenshot-overview.png)
-![jekyll-theme-desktop](https://user-images.githubusercontent.com/32843441/72224870-5451ff00-357f-11ea-8fc2-bfbd4499bc63.gif)
-![jekyll-theme-mobil](https://user-images.githubusercontent.com/32843441/72224877-6a5fbf80-357f-11ea-920b-dfae72bf2fbe.gif)
+#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
 
-## Installation/Setup
-1. Download or clone repo `git clone https://github.com/tzuehlke/jekyll-uno-timeline.git`
-2. Enter the folder: `cd jekyll-uno-timeline/`
-3. Build it: `jekyll build`
-4. Start Jekyll server: `jekyll serve`
-5. Configure: `_config.yml`
-   * at least set `font_awesome` or download and add the font in `head.html`
+![WhatATheme](assets/images/meta.jpg)
 
-Access via: [http://localhost:4000/](http://localhost:4000/)
+# Features :sparkles:
+* Free and Easy setup
+* No Coding Required
+* Compatible with [Github Pages](https://pages.github.com/)
+* Responsive and Blogging Ready
+* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
+* Minified CSS using SaSS
+* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
+* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
+* Stylesheet built using SaSS
+* Comments using Disqus
+* Analytics using Google Analytics
+* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
 
-## Details/Features/Changes
-* based on the [Uno-Theme](https://github.com/joshgerdes/jekyll-uno), but:
-  * removed everything with posts
-  * `content-wrapper` can be shown or hidden with button
-  * changed all icons to [Font-Awesome](https://fontawesome.com/)
-  * updated google-analytics snipped
-  * added [Meetup-Link](https://www.meetup.com/)
-  * removed RSS
-  * removed Disqus
-  * using a Timeline-Design instead of posts, therefore no pagination anymore
-* using Timeline ([CSS](https://github.com/le4ker/personal-jekyll-theme/blob/master/css/timeline.scss), [HTML](https://github.com/le4ker/personal-jekyll-theme/blob/master/_includes/timeline.html) ) from [{ Personal } Jekyll Theme](https://github.com/le4ker/personal-jekyll-theme) for a list of projects, but:
-  * still with 3 layouts for different screen-width, but without images on small screens
-  * timeline information source is now `_data/projects.yaml`
-  * always using the `timeline-inverted`-class, for text on the right side of the images
-* using [github_api.js](https://github.com/jarrekk/Jalpc/blob/master/static/js/github_api.js) from [Jalpc.](https://github.com/jarrekk/Jalpc), but:
-  * changed the GitHub-URL for using with persons and organisations
-  * added watchers number
+# Installation :books:
+### System Requirements
+* [Ruby](https://www.ruby-lang.org/en/)
+* [Jekyll](https://jekyllrb.com/)
+> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
+### Up and Running
+* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
+* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
+* Inside the directory run `bundle install`
+* Host WhatATheme locally by running `bundle exec jekyll s`
+
+> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
+
+[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
+
+---
+
+### Content Credits :green_heart:
+* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
+* [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
+* [Font Awesome](https://fontawesome.com/)
+* [Poppins Font](https://fonts.google.com/specimen/Poppins)
+* [Memphis Pattern](https://www.freepik.com/free-vector/memphis-pattern-background_4034913.htm#page=1&query=memphis%20pattern&position=23) used for some Social Media Images and the Favicon.
+
+---
+
+### Credits :bulb:
+* [Sneha Omer](http://sassyecoder.github.io/)
+* [Harsh Trivedi](http://harsh98trivedi.github.io/)
+
+### License
+The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)
